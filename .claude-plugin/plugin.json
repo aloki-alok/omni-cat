@@ -1,0 +1,53 @@
+{
+  "name": "omni-cat",
+  "version": "0.1.0",
+  "description": "A pixel cat above the prompt that runs an OmniDimension test call and reports how it went.",
+  "author": {
+    "name": "aloki-alok",
+    "url": "https://github.com/aloki-alok"
+  },
+  "homepage": "https://github.com/aloki-alok/omni-cat",
+  "repository": "https://github.com/aloki-alok/omni-cat",
+  "license": "MIT",
+  "keywords": [
+    "claude-code-mods",
+    "claude-mods",
+    "omnidimension",
+    "voice-ai",
+    "pixel-art",
+    "terminal"
+  ],
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "title": "OmniDimension API key",
+      "description": "Sent only to the API base URL below",
+      "sensitive": true,
+      "default": ""
+    },
+    "agent_id": {
+      "type": "string",
+      "title": "Agent to test",
+      "description": "Numeric agent ID that /omni test calls with",
+      "default": ""
+    },
+    "phone": {
+      "type": "string",
+      "title": "Your phone number",
+      "description": "Where the test call rings, with country code (+15551234567)",
+      "default": ""
+    },
+    "mascot": {
+      "type": "string",
+      "title": "Character",
+      "description": "Who sits above the prompt and reports your test call",
+      "default": "cat",
+      "options": [
+        "cat",
+        "crab",
+        "logo"
+      ]
+    }
+  }
+}

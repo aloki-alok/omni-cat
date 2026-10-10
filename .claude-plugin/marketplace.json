@@ -1,0 +1,19 @@
+{
+  "name": "omni-cat",
+  "owner": {
+    "name": "aloki-alok",
+    "url": "https://github.com/aloki-alok"
+  },
+  "metadata": {
+    "description": "A pixel cat for your Claude Code prompt, and a quick way to test an OmniDimension voice agent."
+  },
+  "plugins": [
+    {
+      "name": "omni-cat",
+      "source": "./",
+      "description": "A pixel cat above the prompt that runs an OmniDimension test call and reports how it went.",
+      "version": "0.1.0",
+      "category": "development"
+    }
+  ]
+}
