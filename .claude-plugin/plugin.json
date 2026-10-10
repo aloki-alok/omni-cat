@@ -22,7 +22,7 @@
     "api_key": {
       "type": "string",
       "title": "OmniDimension API key",
-      "description": "Sent only to the API base URL below",
+      "description": "Sent only to the OmniDimension API, over https",
       "sensitive": true,
       "default": ""
     },
